@@ -1,1 +1,1 @@
-#base	"../#basefiles/jofre_fixes/null.res"
+"x.res"{}

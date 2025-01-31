@@ -1,1 +1,15 @@
-#base	"../#basefiles/jofre_fixes/null.res"
+"EditablePanelDemo"
+{
+	"SpeedLabel"
+	{
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"InternetSpeed"
+	{
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+}

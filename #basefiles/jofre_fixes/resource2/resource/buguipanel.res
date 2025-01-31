@@ -1,1098 +1,719 @@
 "Resource\BugUIPanel.res"
 {
-"BugUIPanel"
-{
-"ControlName""CBugUIPanel"
-"fieldName""BugUIPanel"
-"xpos""340"
-"ypos""272"
-"wide""600"
-"tall""480"
-
-
-////"visible""1"
-
-
-"settitlebarvisible""1"
-"title""Bug Reporter"
-}
-"frame_topGrip"
-{
-"ControlName""Panel"
-"fieldName""frame_topGrip"
-"xpos""8"
-//"ypos""0"
-"wide""584"
-"tall""5"
-
-
-////"visible""1"
-
-
-}
-"frame_bottomGrip"
-{
-"ControlName""Panel"
-"fieldName""frame_bottomGrip"
-"xpos""8"
-"ypos""475"
-"wide""574"
-"tall""5"
-
-
-////"visible""1"
-
-
-}
-"frame_leftGrip"
-{
-"ControlName""Panel"
-"fieldName""frame_leftGrip"
-
-"ypos""8"
-"wide""5"
-"tall""464"
-
-
-////"visible""1"
-
-
-}
-"frame_rightGrip"
-{
-"ControlName""Panel"
-"fieldName""frame_rightGrip"
-"xpos""595"
-"ypos""8"
-"wide""5"
-"tall""454"
-
-
-////"visible""1"
-
-
-}
-"frame_tlGrip"
-{
-"ControlName""Panel"
-"fieldName""frame_tlGrip"
-
-//"ypos""0"
-"wide""8"
-"tall""8"
-
-
-////"visible""1"
-
-
-}
-"frame_trGrip"
-{
-"ControlName""Panel"
-"fieldName""frame_trGrip"
-"xpos""592"
-//"ypos""0"
-"wide""8"
-"tall""8"
-
-
-////"visible""1"
-
-
-}
-"frame_blGrip"
-{
-"ControlName""Panel"
-"fieldName""frame_blGrip"
-
-"ypos""472"
-"wide""8"
-"tall""8"
-
-
-////"visible""1"
-
-
-}
-"frame_brGrip"
-{
-"ControlName""Panel"
-"fieldName""frame_brGrip"
-"xpos""582"
-"ypos""462"
-"wide""18"
-"tall""18"
-
-
-////"visible""1"
-
-
-}
-"frame_caption"
-{
-"ControlName""Panel"
-"fieldName""frame_caption"
-
-//"ypos""0"
-"wide""590"
-"tall""23"
-
-
-////"visible""1"
-
-
-}
-"frame_minimize"
-{
-"ControlName""Button"
-"fieldName""frame_minimize"
-
-//"ypos""0"
-"wide""18"
-"tall""18"
-
-
-"visible""0"
-
-
-"labelText""0"
-"textAlignment""north-west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-//"Default""0"
-}
-"frame_maximize"
-{
-"ControlName""Button"
-"fieldName""frame_maximize"
-
-//"ypos""0"
-"wide""18"
-"tall""18"
-
-
-"visible""0"
-
-
-"labelText""1"
-"textAlignment""north-west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-//"Default""0"
-}
-"frame_mintosystray"
-{
-"ControlName""Button"
-"fieldName""frame_mintosystray"
-
-//"ypos""0"
-"wide""18"
-"tall""18"
-
-
-"visible""0"
-
-
-"labelText""o"
-"textAlignment""north-west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-"Command""MinimizeToSysTray"
-//"Default""0"
-}
-"frame_close"
-{
-"ControlName""Button"
-"fieldName""frame_close"
-"xpos""575"
-"ypos""8"
-"wide""18"
-"tall""18"
-
-
-////"visible""1"
-
-
-"labelText""r"
-"textAlignment""north-west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-//"Default""0"
-}
-"frame_menu"
-{
-"ControlName""FrameSystemButton"
-"fieldName""frame_menu"
-"xpos""7"
-"ypos""8"
-"wide""18"
-"tall""18"
-
-
-////"visible""1"
-
-
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-//"Default""0"
-}
-"BugTitle"
-{
-"ControlName""TextEntry"
-"fieldName""BugTitle"
-"xpos""100"
-"ypos""35"
-"wide""481"
-"tall""24"
-
-
-////"visible""1"
-
-//"tabPosition""1"
-//"textHidden""0"
-//"editable""1"
-"maxchars""75"
-//"NumericInputOnly""0"
-//"unicode""0"
-}
-"BugDescription"
-{
-"ControlName""TextEntry"
-"fieldName""BugDescription"
-"xpos""100"
-"ypos""65"
-"wide""481"
-"tall""111"
-
-
-////"visible""1"
-
-//"tabPosition""2"
-//"textHidden""0"
-//"editable""1"
-//"maxchars""-1"
-//"NumericInputOnly""0"
-//"unicode""0"
-}
-"BugEmail"
-{
-"ControlName""TextEntry"
-"fieldName""BugEmail"
-
-//"ypos""0"
-"wide""64"
-"tall""24"
-
-
-"visible""0"
-
-
-//"textHidden""0"
-//"editable""1"
-"maxchars""80"
-//"NumericInputOnly""0"
-//"unicode""0"
-}
-"BugSubitterLabelPublic"
-{
-"ControlName""Label"
-"fieldName""BugSubitterLabelPublic"
-
-//"ypos""0"
-"wide""64"
-"tall""24"
-
-
-////"visible""1"
-
-
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BugScreenShotURL"
-{
-"ControlName""Label"
-"fieldName""BugScreenShotURL"
-"xpos""100"
-"ypos""180"
-"wide""210"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Shot URL"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BugSaveGameURL"
-{
-"ControlName""Label"
-"fieldName""BugSaveGameURL"
-"xpos""100"
-"ypos""208"
-"wide""210"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Save URL"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BugBSPURL"
-{
-"ControlName""Label"
-"fieldName""BugBSPURL"
-"xpos""100"
-"ypos""235"
-"wide""210"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText"".bsp file"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BugVMFURL"
-{
-"ControlName""Label"
-"fieldName""BugVMFURL"
-"xpos""100"
-"ypos""262"
-"wide""210"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText"".vmf file"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BugIncludedFiles"
-{
-"ControlName""TextEntry"
-"fieldName""BugIncludedFiles"
-"xpos""100"
-"ypos""292"
-"wide""481"
-"tall""49"
-
-
-////"visible""1"
-
-
-//"textHidden""0"
-//"editable""0"
-//"maxchars""-1"
-//"NumericInputOnly""0"
-//"unicode""0"
-}
-"BugTakeShot"
-{
-"ControlName""Button"
-"fieldName""BugTakeShot"
-"xpos""10"
-"ypos""180"
-"wide""80"
-"tall""24"
-
-
-////"visible""1"
-
-////test1//"tabPosition""11"
-"labelText""Take shot"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-"Command""snapshot"
-//"Default""0"
-}
-"BugSaveGame"
-{
-"ControlName""Button"
-"fieldName""BugSaveGame"
-"xpos""10"
-"ypos""208"
-"wide""80"
-"tall""24"
-
-
-////"visible""1"
-
-//"tabPosition""12"
-"labelText""Save game"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-"Command""savegame"
-//"Default""0"
-}
-"BugSaveBSP"
-{
-"ControlName""Button"
-"fieldName""BugSaveBSP"
-"xpos""10"
-"ypos""235"
-"wide""80"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Include .bsp"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-"Command""savebsp"
-//"Default""0"
-}
-"BugSaveVMF"
-{
-"ControlName""Button"
-"fieldName""BugSaveVMF"
-"xpos""10"
-"ypos""262"
-"wide""31"
-"tall""23"
-
-
-////"visible""1"
-
-
-"labelText"".vmf"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"font""DefaultVerySmall"
-//"wrap""0"
-"Command""savevmf"
-//"Default""0"
-}
-"BugChooseVMFFolder"
-{
-"ControlName""Button"
-"fieldName""BugChooseVMFFolder"
-"xpos""42"
-"ypos""262"
-"wide""48"
-"tall""23"
-
-
-////"visible""1"
-
-
-"labelText""Folder..."
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"font""DefaultVerySmall"
-//"wrap""0"
-//"Default""0"
-}
-"BugIncludeFile"
-{
-"ControlName""Button"
-"fieldName""BugIncludeFile"
-"xpos""10"
-"ypos""292"
-"wide""85"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Include file..."
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-"Command""addfile"
-//"Default""0"
-}
-"BugClearIncludedFiles"
-{
-"ControlName""Button"
-"fieldName""BugClearIncludedFiles"
-"xpos""10"
-"ypos""316"
-"wide""85"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Clear files"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-"Command""clearfiles"
-//"Default""0"
-}
-"BugPosition"
-{
-"ControlName""Label"
-"fieldName""BugPosition"
-"xpos""420"
-"ypos""182"
-"wide""160"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""-1072.00 128.00 16.03"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BugOrientation"
-{
-"ControlName""Label"
-"fieldName""BugOrientation"
-"xpos""420"
-"ypos""207"
-"wide""160"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""0.00 180.00 0.00"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BugLevel"
-{
-"ControlName""Label"
-"fieldName""BugLevel"
-"xpos""420"
-"ypos""227"
-"wide""160"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""box"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BugBuild"
-{
-"ControlName""Label"
-"fieldName""BugBuild"
-"xpos""420"
-"ypos""253"
-"wide""160"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""3029"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BugSubmitter"
-{
-"ControlName""Label"
-"fieldName""BugSubmitter"
-"xpos""100"
-"ypos""344"
-"wide""200"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Yahn Bernier"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BugOwner"
-{
-"ControlName""ComboBox"
-"fieldName""BugOwner"
-"xpos""100"
-"ypos""372"
-"wide""200"
-"tall""24"
-
-
-////"visible""1"
-
-//"tabPosition""3"
-//"textHidden""0"
-//"editable""0"
-//"maxchars""-1"
-//"NumericInputOnly""0"
-//"unicode""0"
-}
-"BugSeverity"
-{
-"ControlName""ComboBox"
-"fieldName""BugSeverity"
-"xpos""100"
-"ypos""400"
-"wide""200"
-"tall""24"
-
-
-////"visible""1"
-
-//"tabPosition""4"
-//"textHidden""0"
-//"editable""0"
-//"maxchars""-1"
-//"NumericInputOnly""0"
-//"unicode""0"
-}
-"BugReportType"
-{
-"ControlName""ComboBox"
-"fieldName""BugReportType"
-"xpos""420"
-"ypos""344"
-"wide""160"
-"tall""24"
-
-
-////"visible""1"
-
-//"tabPosition""5"
-//"textHidden""0"
-//"editable""0"
-//"maxchars""-1"
-//"NumericInputOnly""0"
-//"unicode""0"
-}
-"BugPriority"
-{
-"ControlName""ComboBox"
-"fieldName""BugPriority"
-"xpos""420"
-"ypos""372"
-"wide""160"
-"tall""24"
-
-
-////"visible""1"
-
-//"tabPosition""6"
-//"textHidden""0"
-//"editable""0"
-//"maxchars""-1"
-//"NumericInputOnly""0"
-//"unicode""0"
-}
-"BugArea"
-{
-"ControlName""ComboBox"
-"fieldName""BugArea"
-"xpos""420"
-"ypos""400"
-"wide""160"
-"tall""24"
-
-
-////"visible""1"
-
-//"tabPosition""7"
-//"textHidden""0"
-//"editable""0"
-//"maxchars""-1"
-//"NumericInputOnly""0"
-//"unicode""0"
-}
-"BugMapNumber"
-{
-"ControlName""ComboBox"
-"fieldName""BugMapNumber"
-"xpos""419"
-"ypos""428"
-"wide""161"
-"tall""24"
-
-
-"visible""0"
-
-
-//"textHidden""0"
-//"editable""0"
-//"maxchars""-1"
-//"NumericInputOnly""0"
-//"unicode""0"
-}
-"BugSubmit"
-{
-"ControlName""Button"
-"fieldName""BugSubmit"
-"xpos""231"
-"ypos""454"
-"wide""64"
-"tall""24"
-
-
-////"visible""1"
-"enabled""0"
-//"tabPosition""8"
-"labelText""Submit"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-"Command""submit"
-//"Default""0"
-}
-"BugCancel"
-{
-"ControlName""Button"
-"fieldName""BugCancel"
-"xpos""305"
-"ypos""454"
-"wide""64"
-"tall""24"
-
-
-////"visible""1"
-
-//"tabPosition""9"
-"labelText""Cancel"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-"Command""cancel"
-//"Default""1"
-}
-"BugClearForm"
-{
-"ControlName""Button"
-"fieldName""BugClearForm"
-"xpos""499"
-"ypos""454"
-"wide""82"
-"tall""24"
-
-
-////"visible""1"
-
-//"tabPosition""10"
-"labelText""Clear Form"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-"Command""clearform"
-//"Default""0"
-}
-"Label1"
-{
-"ControlName""Label"
-"fieldName""Label1"
-"xpos""10"
-"ypos""35"
-"wide""64"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Title:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label2"
-{
-"ControlName""Label"
-"fieldName""Label2"
-"xpos""10"
-"ypos""65"
-"wide""80"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Description:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label3"
-{
-"ControlName""Label"
-"fieldName""Label3"
-"xpos""320"
-"ypos""183"
-"wide""80"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Position:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label5"
-{
-"ControlName""Label"
-"fieldName""Label5"
-"xpos""320"
-"ypos""227"
-"wide""80"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Map:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label6"
-{
-"ControlName""Label"
-"fieldName""Label6"
-"xpos""320"
-"ypos""253"
-"wide""64"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Build:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label7"
-{
-"ControlName""Label"
-"fieldName""Label7"
-"xpos""10"
-"ypos""344"
-"wide""64"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Submitter:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label8"
-{
-"ControlName""Label"
-"fieldName""Label8"
-"xpos""10"
-"ypos""372"
-"wide""64"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Owner:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label9"
-{
-"ControlName""Label"
-"fieldName""Label9"
-"xpos""10"
-"ypos""400"
-"wide""64"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Severity:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label10"
-{
-"ControlName""Label"
-"fieldName""Label10"
-"xpos""320"
-"ypos""344"
-"wide""90"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Report Type:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label11"
-{
-"ControlName""Label"
-"fieldName""Label11"
-"xpos""320"
-"ypos""372"
-"wide""90"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Priority:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label12"
-{
-"ControlName""Label"
-"fieldName""Label12"
-"xpos""320"
-"ypos""400"
-"wide""90"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Area:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label4"
-{
-"ControlName""Label"
-"fieldName""Label4"
-"xpos""320"
-"ypos""210"
-"wide""92"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Orientation:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"Label13"
-{
-"ControlName""Label"
-"fieldName""Label13"
-"xpos""320"
-"ypos""428"
-"wide""84"
-"tall""24"
-
-
-////"visible""1"
-
-
-"labelText""Map Number:"
-//"textAlignment""west"
-////"dulltext""0"
-////"brighttext""0"
-//"wrap""0"
-}
-"BuildModeDialog"
-{
-"ControlName""BuildModeDialog"
-"fieldName""BuildModeDialog"
-"xpos""20"
-"ypos""78"
-"wide""300"
-"tall""420"
-
-
-////"visible""1"
-
-
-"settitlebarvisible""1"
-"title""#Frame_Untitled"
-}
+	"BugUIPanel"
+	{
+		"ControlName"		"CBugUIPanel"
+		"xpos"		"340"
+		"ypos"		"272"
+		"wide"		"600"
+		"tall"		"480"
+		//		"0"
+		//		"0"
+		//		"0"
+		"title"		"Bug Reporter"
+	}
+	"frame_topGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"8"
+		"ypos"		"0"
+		"wide"		"584"
+		"tall"		"5"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"frame_bottomGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"8"
+		"ypos"		"475"
+		"wide"		"574"
+		"tall"		"5"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"frame_leftGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"0"
+		"ypos"		"8"
+		"wide"		"5"
+		"tall"		"464"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"frame_rightGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"595"
+		"ypos"		"8"
+		"wide"		"5"
+		"tall"		"454"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"frame_tlGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"8"
+		"tall"		"8"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"frame_trGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"592"
+		"ypos"		"0"
+		"wide"		"8"
+		"tall"		"8"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"frame_blGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"0"
+		"ypos"		"472"
+		"wide"		"8"
+		"tall"		"8"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"frame_brGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"582"
+		"ypos"		"462"
+		"wide"		"18"
+		"tall"		"18"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"frame_caption"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"590"
+		"tall"		"23"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"frame_minimize"
+	{
+		"ControlName"		"Button"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"18"
+		"tall"		"18"
+		//		"0"
+		//		"0"
+		"visible"		"0"
+		//		"0"
+		"labelText"		"0"
+	}
+	"frame_maximize"
+	{
+		"ControlName"		"Button"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"18"
+		"tall"		"18"
+		//		"0"
+		//		"0"
+		"visible"		"0"
+		//		"0"
+		"labelText"		"1"
+	}
+	"frame_mintosystray"
+	{
+		"ControlName"		"Button"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"18"
+		"tall"		"18"
+		//		"0"
+		//		"0"
+		"visible"		"0"
+		//		"0"
+		"labelText"		"o"
+		"Command"		"MinimizeToSysTray"
+	}
+	"frame_close"
+	{
+		"ControlName"		"Button"
+		"xpos"		"575"
+		"ypos"		"8"
+		"wide"		"18"
+		"tall"		"18"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"r"
+	}
+	"frame_menu"
+	{
+		"ControlName"		"FrameSystemButton"
+		"xpos"		"7"
+		"ypos"		"8"
+		"wide"		"18"
+		"tall"		"18"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"BugTitle"
+	{
+		"ControlName"		"TextEntry"
+		"xpos"		"100"
+		"ypos"		"35"
+		"wide"		"481"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"1"
+		"editable"		"1"
+		"maxchars"		"75"
+	}
+	"BugDescription"
+	{
+		"ControlName"		"TextEntry"
+		"xpos"		"100"
+		"ypos"		"65"
+		"wide"		"481"
+		"tall"		"111"
+		//		"0"
+		//		"0"
+		//		"2"
+		"editable"		"1"
+		"maxchars"		"-1"
+	}
+	"BugEmail"
+	{
+		"ControlName"		"TextEntry"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		"visible"		"0"
+		//		"0"
+		"editable"		"1"
+		"maxchars"		"80"
+	}
+	"BugSubitterLabelPublic"
+	{
+		"ControlName"		"Label"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"BugScreenShotURL"
+	{
+		"ControlName"		"Label"
+		"xpos"		"100"
+		"ypos"		"180"
+		"wide"		"210"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Shot URL"
+	}
+	"BugSaveGameURL"
+	{
+		"ControlName"		"Label"
+		"xpos"		"100"
+		"ypos"		"208"
+		"wide"		"210"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Save URL"
+	}
+	"BugBSPURL"
+	{
+		"ControlName"		"Label"
+		"xpos"		"100"
+		"ypos"		"235"
+		"wide"		"210"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		".bsp file"
+	}
+	"BugVMFURL"
+	{
+		"ControlName"		"Label"
+		"xpos"		"100"
+		"ypos"		"262"
+		"wide"		"210"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		".vmf file"
+	}
+	"BugIncludedFiles"
+	{
+		"ControlName"		"TextEntry"
+		"xpos"		"100"
+		"ypos"		"292"
+		"wide"		"481"
+		"tall"		"49"
+		//		"0"
+		//		"0"
+		//		"0"
+		"maxchars"		"-1"
+	}
+	"BugTakeShot"
+	{
+		"ControlName"		"Button"
+		"xpos"		"10"
+		"ypos"		"180"
+		"wide"		"80"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"11"
+		"labelText"		"Take shot"
+		"Command"		"snapshot"
+	}
+	"BugSaveGame"
+	{
+		"ControlName"		"Button"
+		"xpos"		"10"
+		"ypos"		"208"
+		"wide"		"80"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"12"
+		"labelText"		"Save game"
+		"Command"		"savegame"
+	}
+	"BugSaveBSP"
+	{
+		"ControlName"		"Button"
+		"xpos"		"10"
+		"ypos"		"235"
+		"wide"		"80"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Include .bsp"
+		"Command"		"savebsp"
+	}
+	"BugSaveVMF"
+	{
+		"ControlName"		"Button"
+		"xpos"		"10"
+		"ypos"		"262"
+		"wide"		"31"
+		"tall"		"23"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		".vmf"
+		"Command"		"savevmf"
+	}
+	"BugChooseVMFFolder"
+	{
+		"ControlName"		"Button"
+		"xpos"		"42"
+		"ypos"		"262"
+		"wide"		"48"
+		"tall"		"23"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Folder..."
+	}
+	"BugIncludeFile"
+	{
+		"ControlName"		"Button"
+		"xpos"		"10"
+		"ypos"		"292"
+		"wide"		"85"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Include file..."
+		"Command"		"addfile"
+	}
+	"BugClearIncludedFiles"
+	{
+		"ControlName"		"Button"
+		"xpos"		"10"
+		"ypos"		"316"
+		"wide"		"85"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Clear files"
+		"Command"		"clearfiles"
+	}
+	"BugPosition"
+	{
+		"ControlName"		"Label"
+		"xpos"		"420"
+		"ypos"		"182"
+		"wide"		"160"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"-1072.00 128.00 16.03"
+	}
+	"BugOrientation"
+	{
+		"ControlName"		"Label"
+		"xpos"		"420"
+		"ypos"		"207"
+		"wide"		"160"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"0.00 180.00 0.00"
+	}
+	"BugLevel"
+	{
+		"ControlName"		"Label"
+		"xpos"		"420"
+		"ypos"		"227"
+		"wide"		"160"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"box"
+	}
+	"BugBuild"
+	{
+		"ControlName"		"Label"
+		"xpos"		"420"
+		"ypos"		"253"
+		"wide"		"160"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"3029"
+	}
+	"BugSubmitter"
+	{
+		"ControlName"		"Label"
+		"xpos"		"100"
+		"ypos"		"344"
+		"wide"		"200"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Yahn Bernier"
+	}
+	"BugOwner"
+	{
+		"ControlName"		"ComboBox"
+		"xpos"		"100"
+		"ypos"		"372"
+		"wide"		"200"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"3"
+		"maxchars"		"-1"
+	}
+	"BugSeverity"
+	{
+		"ControlName"		"ComboBox"
+		"xpos"		"100"
+		"ypos"		"400"
+		"wide"		"200"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"4"
+		"maxchars"		"-1"
+	}
+	"BugReportType"
+	{
+		"ControlName"		"ComboBox"
+		"xpos"		"420"
+		"ypos"		"344"
+		"wide"		"160"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"5"
+		"maxchars"		"-1"
+	}
+	"BugPriority"
+	{
+		"ControlName"		"ComboBox"
+		"xpos"		"420"
+		"ypos"		"372"
+		"wide"		"160"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"6"
+		"maxchars"		"-1"
+	}
+	"BugArea"
+	{
+		"ControlName"		"ComboBox"
+		"xpos"		"420"
+		"ypos"		"400"
+		"wide"		"160"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"7"
+		"maxchars"		"-1"
+	}
+	"BugMapNumber"
+	{
+		"ControlName"		"ComboBox"
+		"xpos"		"419"
+		"ypos"		"428"
+		"wide"		"161"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		"visible"		"0"
+		//		"0"
+		"maxchars"		"-1"
+	}
+	"BugSubmit"
+	{
+		"ControlName"		"Button"
+		"xpos"		"231"
+		"ypos"		"454"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"8"
+		"labelText"		"Submit"
+		"Command"		"submit"
+	}
+	"BugCancel"
+	{
+		"ControlName"		"Button"
+		"xpos"		"305"
+		"ypos"		"454"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"9"
+		"labelText"		"Cancel"
+		"Command"		"cancel"
+		"Default"		"1"
+	}
+	"BugClearForm"
+	{
+		"ControlName"		"Button"
+		"xpos"		"499"
+		"ypos"		"454"
+		"wide"		"82"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"10"
+		"labelText"		"Clear Form"
+		"Command"		"clearform"
+	}
+	"Label1"
+	{
+		"ControlName"		"Label"
+		"xpos"		"10"
+		"ypos"		"35"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Title:"
+	}
+	"Label2"
+	{
+		"ControlName"		"Label"
+		"xpos"		"10"
+		"ypos"		"65"
+		"wide"		"80"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Description:"
+	}
+	"Label3"
+	{
+		"ControlName"		"Label"
+		"xpos"		"320"
+		"ypos"		"183"
+		"wide"		"80"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Position:"
+	}
+	"Label5"
+	{
+		"ControlName"		"Label"
+		"xpos"		"320"
+		"ypos"		"227"
+		"wide"		"80"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Map:"
+	}
+	"Label6"
+	{
+		"ControlName"		"Label"
+		"xpos"		"320"
+		"ypos"		"253"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Build:"
+	}
+	"Label7"
+	{
+		"ControlName"		"Label"
+		"xpos"		"10"
+		"ypos"		"344"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Submitter:"
+	}
+	"Label8"
+	{
+		"ControlName"		"Label"
+		"xpos"		"10"
+		"ypos"		"372"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Owner:"
+	}
+	"Label9"
+	{
+		"ControlName"		"Label"
+		"xpos"		"10"
+		"ypos"		"400"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Severity:"
+	}
+	"Label10"
+	{
+		"ControlName"		"Label"
+		"xpos"		"320"
+		"ypos"		"344"
+		"wide"		"90"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Report Type:"
+	}
+	"Label11"
+	{
+		"ControlName"		"Label"
+		"xpos"		"320"
+		"ypos"		"372"
+		"wide"		"90"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Priority:"
+	}
+	"Label12"
+	{
+		"ControlName"		"Label"
+		"xpos"		"320"
+		"ypos"		"400"
+		"wide"		"90"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Area:"
+	}
+	"Label4"
+	{
+		"ControlName"		"Label"
+		"xpos"		"320"
+		"ypos"		"210"
+		"wide"		"92"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Orientation:"
+	}
+	"Label13"
+	{
+		"ControlName"		"Label"
+		"xpos"		"320"
+		"ypos"		"428"
+		"wide"		"84"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Map Number:"
+	}
+	"BuildModeDialog"
+	{
+		"ControlName"		"BuildModeDialog"
+		"xpos"		"20"
+		"ypos"		"78"
+		"wide"		"300"
+		"tall"		"420"
+		//		"0"
+		//		"0"
+		//		"0"
+		"title"		"#Frame_Untitled"
+	}
 }

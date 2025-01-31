@@ -1,1 +1,7 @@
-#base	"../#basefiles/jofre_fixes/null.res"
+"Resource\DialogFindBuddy.res"
+{
+	"Frame"
+	{
+		//		"0"
+	}
+}

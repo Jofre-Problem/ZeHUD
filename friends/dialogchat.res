@@ -1,1 +1,1 @@
-#base	"../#basefiles/jofre_fixes/null.res"
+#base "dialogchat_new.res"

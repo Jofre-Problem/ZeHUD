@@ -11,13 +11,15 @@
 		"bgcolor_override"	"Blank"
 		"settitlebarvisible"	"1"	"infocus_bgcolor_override"	"Blank"	"outoffocus_bgcolor_override"	"Blank"	
 		"title_font"	""	"titlebarfgcolor_override"	"Blank"	"titlebardisabledfgcolor_override"	"Blank"	"titlebarbgcolor_override"	"Blank"	
-		"sheetinset_bottom"	"24"
+        "settitlebarvisible"                    "1"
+        "titletextinsetY"                       "-30"
+        "sheetinset_bottom"                     "0"
 	}
 	
 	"Background"
 	{
 		"ControlName"	"ImagePanel"	"fieldName"	"Background"		
-		"xpos"	"0"	"ypos"	"18"	"zpos"	"0"	"wide"	"f0"	"tall"	"480"		
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"0"	"wide"	"f0"	"tall"	"480"		
 		"visible"	"1"	"enabled"	"1"	"image"	"replay/thumbnails/menu/menugif"	"scaleimage"	"1"
 	}
 	
@@ -33,8 +35,12 @@
 	"Sheet"
 	{
 		"zpos"	"50"		
-		"tabxindent"	"10"	"tabxdelta"	"5"	"tabheight"	"18"		
-		"yoffset"	"30"	
+        "tabxindent"                    "5"
+        "tabheight"                     "20"
+        "tabxdelta"                     "0"
+        "tabfittotext"                  "1"
+        "yoffset"                       "40"
+
 
 		"HeaderLine"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 		

@@ -1,19 +1,15 @@
 "resource/BxElementProperties.res"
 {
-"ElementProperties"
-{
-"ControlName""CElementProperties"
-"fieldName""ElementProperties"
-"xpos""547"
-"ypos""63"
-"wide""470"
-"tall""323"
-
-
-////"visible""1"
-
-
-"settitlebarvisible""1"
-"title""#DmeElementProperties"
-}
+	"ElementProperties"
+	{
+		"ControlName"		"CElementProperties"
+		"xpos"		"547"
+		"ypos"		"63"
+		"wide"		"470"
+		"tall"		"323"
+		//		"0"
+		//		"0"
+		//		"0"
+		"title"		"#DmeElementProperties"
+	}
 }

@@ -1,59 +1,47 @@
 "resource/BxElementPropertiesTree.res"
 {
-"ElementPropertiesTree"
-{
-"ControlName""CPropertiesContainer"
-"fieldName""ElementPropertiesTree"
-
-"ypos""14"
-"wide""1157"
-"tall""577"
-//"autoResize""3"
-
-////"visible""1"
-
-
-}
-"ElementTree"
-{
-"ControlName""CElementTree"
-"fieldName""ElementTree"
-"xpos""1"
-"ypos""35"
-"wide""297"
-"tall""542"
-
-
-////"visible""1"
-
-
-}
-"ElementTreeList"
-{
-"ControlName""CElementTreeViewListControl"
-"fieldName""ElementTreeList"
-
-"ypos""22"
-"wide""1157"
-"tall""548"
-//"autoResize""3"
-
-////"visible""1"
-
-
-}
-"ElementTreeToolbar"
-{
-"ControlName""CPropertiesTreeToolbar"
-"fieldName"""ElementTreeToolbar""
-
-//"ypos""0"
-"wide""1157"
-"tall""22"
-//"autoResize""1"
-
-////"visible""1"
-
-
-}
+	"ElementPropertiesTree"
+	{
+		"ControlName"		"CPropertiesContainer"
+		"xpos"		"0"
+		"ypos"		"14"
+		"wide"		"1157"
+		"tall"		"577"
+		//		"3"
+		//		"0"
+		//		"0"
+	}
+	"ElementTree"
+	{
+		"ControlName"		"CElementTree"
+		"xpos"		"1"
+		"ypos"		"35"
+		"wide"		"297"
+		"tall"		"542"
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"ElementTreeList"
+	{
+		"ControlName"		"CElementTreeViewListControl"
+		"xpos"		"0"
+		"ypos"		"22"
+		"wide"		"1157"
+		"tall"		"548"
+		//		"3"
+		//		"0"
+		//		"0"
+	}
+	"ElementTreeToolbar"
+	{
+		"ControlName"		"CPropertiesTreeToolbar"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"1157"
+		"tall"		"22"
+		//		"1"
+		//		"0"
+		//		"0"
+	}
 }

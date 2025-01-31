@@ -1,13 +1,25 @@
 hudanimations_manifest
 {
-	// custom animations
-	"file" 		"scripts/animations/hudanimations_health.txt"
-	"file" 		"scripts/animations/hudanimations_ammo.txt"
-	"file" 		"scripts/animations/hudanimations_uber.txt"
-	"file" 		"scripts/animations/hudanimations_spy.txt"
-	"file" 		"scripts/animations/hudanimations_ze.txt"
-	"file" 		"scripts/animations/hudanimations_removed.txt"	
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // QoL Scripts
+    ////////////////////////////////////////////////////////////////////////////////////////////////////	
+
+		"file"		"_mainstream/health-fix/file.txt"	
+		"file"		"_mainstream/niterux-skip/file.txt"
+		"file"		"_mainstream/trade-fix/file.txt"
+		"file"		"_mainstream/mvm-fixer/file.txt"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // ZeHUD Stuff
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 	
+		"file" 		"scripts/animations/hudanimations_health.txt"
+		"file" 		"scripts/animations/hudanimations_ammo.txt"
+		"file" 		"scripts/animations/hudanimations_uber.txt"
+		"file" 		"scripts/animations/hudanimations_spy.txt"
+		"file" 		"scripts/animations/hudanimations_ze.txt"
+		"file" 		"scripts/animations/hudanimations_removed.txt"	
+		
 	// general animations
 //	"file"		"scripts/anim_deathfix.txt"
 //	"file"      "scripts/anim_uncrating.txt"

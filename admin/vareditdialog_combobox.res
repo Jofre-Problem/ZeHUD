@@ -1,1 +1,13 @@
-#base	"../#basefiles/jofre_fixes/null.res"
+#base	"vareditdialog_string.res"
+"Admin/VarEditDialog_ComboBox.res"
+{
+	"StringEdit"
+	{
+	}
+	"ComboEdit"
+	{
+		//		"0"
+		//		"0"
+		//		"1"
+	}
+}

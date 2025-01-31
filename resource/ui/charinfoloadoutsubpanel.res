@@ -43,7 +43,7 @@
 
 	"CharInfoLoadoutSubPanel"
 	{
-		"ypos"	"33"
+		"ypos"	"0"
 		"bgcolor_override"	"Blank"
 		"infocus_bgcolor_override"	"Blank"	"outoffocus_bgcolor_override"	"Blank"	
 		"class_ypos"	"9999"	

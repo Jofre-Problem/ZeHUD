@@ -1,1 +1,11 @@
-#base	"../#basefiles/jofre_fixes/null.res"
+"Resource\SubPanelFindBuddyReque"
+{
+	"EditBox"
+	{
+		//		"1"
+	}
+	"InfoText"
+	{
+		//		"0"
+	}
+}

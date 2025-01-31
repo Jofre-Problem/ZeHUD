@@ -32,7 +32,7 @@
 	"Background"
 	{
 		"ControlName"	"ImagePanel"	"fieldName"	"Background"
-		"xpos"	"0"	"ypos"	"-48"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"
+		"xpos"	"0"	"ypos"	"-52"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"
 		"visible"	"1"	"enabled"	"1"	"image"	"replay/thumbnails/menu/menugif"	"scaleimage"	"1"
 	}
 

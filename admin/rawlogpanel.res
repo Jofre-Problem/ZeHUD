@@ -1,1 +1,15 @@
-#base	"../#basefiles/jofre_fixes/null.res"
+"Admin\RawLogPanel.res"
+{
+	"ServerLog"
+	{
+		//		"0"
+		//		"0"
+		//		"0"
+	}
+	"Console"
+	{
+		//		"3"
+		//		"0"
+		//		"0"
+	}
+}

@@ -95,7 +95,7 @@
 			"font"	"Symbols 18"	"enabled"	"1"	"visible"	"1"	"proportionaltoparent"	"1"		
 			"labelText"	"2"	"textAlignment"	"center"		
 			"paintBackground"	"0"	"fgcolor_override"	"255 255 255 255"	
-			"urlText"	"https://github.com/bo0bsy/ZeHud"
+			"urlText"	"https://github.com/Jofre-Problem/ZeHUD"
 		}
 	}
 	"HudsLink"
