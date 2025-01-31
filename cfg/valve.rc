@@ -1,0 +1,28 @@
+// ============
+// CUSTOM STUFF
+// ============
+
+// run a user script file if present
+exec autoexec.cfg;exec mastercomfig_modules.cfg
+
+//exec dimmer.cfg
+//exec ent_remove_all_entities.cfg
+//exec transparent_viewmodels.cfg
+//exec net_graph.cfg
+
+startupmenu
+sv_unlockedchapters 0
+
+tf_hud_target_id_disable_floating_health 1;tf_spectator_target_location 1;tf_contract_progress_show 0;tf_contract_competitive_show 0;tf_scoreboard_alt_class_icons 0;tf_scoreboard_ping_as_text 1
+cl_show_market_data_on_items 2
+
+//Fix for general console spam
+alias dimmer_clicked ""
+
+alias "settings" "OpenSteamWorkshopDialog"
+wait 20; settings
+
+clear
+
+// run a hud script
+exec zehud.cfg
