@@ -103,17 +103,17 @@
 		"ControlName"	"EditablePanel"	"fieldName"	"HudsLink"	
 		"xpos"	"0"	"ypos"	"28"	"zpos"	"10"	"wide"	"22"	"tall"	"22"
 		"visible"	"1"		
-		"bgcolor_override"	"83 152 243 255"	"PaintBackgroundType"	"2"		
+		"bgcolor_override"	"89 101 238 255"	"PaintBackgroundType"	"2"		
 		"pin_to_sibling"	"GitLink"	"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"	"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"	
 
 		"HudsUrl"
 		{
 			"ControlName"	"URLLabel"	"fieldName"	"HudsUrl"
 			"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"f0"	"tall"	"f0"
-			"font"	"Link"	"enabled"	"1"	"visible"	"1"	"proportionaltoparent"	"1"
-			"labelText"	"H"	"textAlignment"	"center"
+			"font"	"Symbols 16"	"enabled"	"1"	"visible"	"1"	"proportionaltoparent"	"1"
+			"labelText"	"c"	"textAlignment"	"center"
 			"paintBackground"	"0"	"fgcolor_override"	"255 255 255 255"
-			"urlText"	"https://discord.com/invite/pc9ekye"
+			"urlText"	"https://discord.gg/EB7HY3SDga"
 		}
 	}	
 	
